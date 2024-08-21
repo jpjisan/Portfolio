@@ -387,6 +387,11 @@ h2 {
 		.chat-info {
 			flex:3;
 			padding-right:30px;
+			.lowerbtn{
+                         @media (max-width:386px){
+                              font-size: 20px;
+        }
+      }
 		}
 		.chat-box {
 			flex:4;
