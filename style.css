@@ -389,7 +389,7 @@ h2 {
 			padding-right:30px;
 			.lowerbtn{
                          @media (max-width:386px){
-                              font-size: 20px;
+                              font-size: 10px;
         }
       }
 		}
