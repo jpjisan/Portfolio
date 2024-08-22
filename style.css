@@ -247,6 +247,7 @@ h1 {
     height: 80px;
     overflow: hidden;
     position: relative;
+    
     .track {
       position: absolute;
       white-space: nowrap;
@@ -254,6 +255,9 @@ h1 {
       animation: marque 40s linear infinite;
       display: flex;
       gap: 20px;
+      
+       
+      
     }
   }
 }
@@ -507,7 +511,7 @@ p{
   font-size:17px ;
 
   @media (max-width:468px){
-    font-size: 13px;
+    font-size: 15px;
   }
 }
 footer {
@@ -528,3 +532,14 @@ footer {
     margin-top: 15px;
     margin-bottom: 5px;
    }
+   @media (max-width:468px){
+    .logos{
+      padding: 10px 0px;
+      .marque{
+        height: 40px;
+        img{
+          width: 40px;
+        }
+      }
+    }
+}
